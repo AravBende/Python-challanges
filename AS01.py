@@ -1,4 +1,8 @@
-MyArray = [12, 14, 13, 11]
+import random
+MyArray = []
+for i in range(10):
+    randomnum = random.randint(1, 99)
+    MyArray.append(randomnum)
 n = len(MyArray) -1
 flag = 1
 
