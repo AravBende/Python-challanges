@@ -30,4 +30,4 @@ while count != 10:
             twice += 1
 
 for randomnumber in randomlist:
-    print(artists[randomnumber][random.randint(2, 11)])
+    print(artists[randomnumber][random.randint(2, 11)] + " by: " + artists[randomnumber][1])
